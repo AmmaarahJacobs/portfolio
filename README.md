@@ -1,2 +1,2 @@
 # portfolio
-This is my portfolio website where I showcase my skills.
+This is my portfolio🗂️website where I showcase my tech👨🏻‍💻 skills.
