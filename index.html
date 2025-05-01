@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJCodes Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="theme-toggle-container">
+        <button id="themeToggle" class="theme-toggle">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+    
+    <header>
+        <div class="logo">AJ<span>Codes</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="home-content">
+                <h1 class="neon-text">Hey, I'm <span class="highlight">AMMAARAH JACOBS</span></h1>
+                <p class="intro-text">A passionate Frontend Developer and UX Designer!</p>
+                <a href="#services"><button class="cta-button go-to-content">Explore My Services</button></a>
+            </div>
+            <div class="particles" id="particles-js"></div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title neon-text">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to my portfolio website, designed to showcase my extensive body
+                        of work and experience. As a dedicated professional in the Information
+                        Technology field, I am thrilled to continually acquire new knowledge
+                        and skills through daily learning opportunities. Consequently, working
+                        within the IT industry has not only broadened my career trajectory
+                        but has also kindled a newfound passion for exploration and discovery. 
+                        My approach combines clean code with thoughtful design to create products 
+                        that are both beautiful and effective. When I'm not coding or designing, 
+                        you can find me exploring new technologies.</p>
+                    <div class="skills">
+                        <div class="skill-tag">HTML/CSS</div>
+                        <div class="skill-tag">JavaScript</div>
+                        <div class="skill-tag">SQL</div>
+                        <div class="skill-tag">Wireframing</div>
+                        <div class="skill-tag">Prototyping</div>
+                        <div class="skill-tag">C#</div>
+                        <div class="skill-tag">Java</div>
+                        <div class="skill-tag">C++</div>
+                        <div class="skill-tag">CompTia A+</div>
+                        <div class="skill-tag">Figma</div>
+                        <div class="skill-tag">Adobe XD</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="New folder/WhatsApp_Image_2025-04-25_at_09.41.37_258a9ffb-removebg-preview.png" alt="Ammaarah Jacobs">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <h2 class="section-title neon-text">My <span class="highlight">Services</span></h2>
+            <div class="services-container">
+                <div class="service-card" id="coding-projects">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Coding</h3>
+                    <p>Custom web development solutions tailored to your needs</p>
+                    <div class="service-details hidden">
+                        <div class="project-gallery">
+                            <div class="project-item">
+                                <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200');"></div>
+                                <div class="project-info">
+                                    <h4>E-commerce Website</h4>
+                                    <p>Fully responsive online store with custom cart functionality</p>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200');"></div>
+                                <div class="project-info">
+                                    <h4>Portfolio Template</h4>
+                                    <p>Creative portfolio template with animated elements</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="close-details">Close</button>
+                    </div>
+                </div>
+                <div class="service-card" id="ux-projects">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>UX Design</h3>
+                    <p>User-centered designs that solve real problems</p>
+                    <div class="service-details hidden">
+                        <div class="project-gallery">
+                            <div class="project-item">
+                                <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200');"></div>
+                                <div class="project-info">
+                                    <h4>Mobile Banking App</h4>
+                                    <p>Redesigned user flows for better financial management</p>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200');"></div>
+                                <div class="project-info">
+                                    <h4>Healthcare Dashboard</h4>
+                                    <p>Data visualization for patient health metrics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="close-details">Close</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title neon-text">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Have a project in mind or want to collaborate? I'd love to hear from you!</p>
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <span>infoajcodes@gmail.com</span>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-phone"></i>
+                        <span>074 836 1519</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <button class="social-button whatsapp" onclick="window.open('https://wa.me/0748361519', '_blank')">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button class="social-button instagram" onclick="window.open('https://instagram.com/a.j.codes', '_blank')">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </button>
+                    <button class="social-button linkedin" onclick="window.open('https://linkedin.com/in/ammaarah-jacobs-5aa51a232', '_blank')">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </button>
+                    <button class="social-button email" onclick="window.location.href='mailto:infoajcodes@gmail.com'">
+                        <i class="fas fa-envelope"></i> Email
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> AJCodes. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
